@@ -1,0 +1,6 @@
+title: Jekyll on SnapDeploy
+description: A plain Jekyll site built in a Docker image and served by nginx.
+url: ""            # set to your container URL or custom domain for absolute links in feeds/sitemaps
+baseurl: ""
+permalink: pretty
+exclude: [Dockerfile, nginx.conf, README.md, Gemfile, Gemfile.lock, vendor]
